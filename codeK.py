@@ -46,7 +46,7 @@ game.set_screen_format(ScreenFormat.DEPTH_BUFFER8)
 game.set_screen_resolution(ScreenResolution.RES_640X480)
 game.init()
 
-actions = [[True, True, True, True, False, False, True, True, False], [False, False, False, False, True, True, False, True, False], [True, False, True, True, True, True, True, False, True]]
+actions = [[True, True, False, False, False, False, True, False, True], [False, False, False, False, True, False, False, True, False], [False, False, True, True, False, True, False, True, False]]
 
 episodes = 10
 # sleep time in ms
